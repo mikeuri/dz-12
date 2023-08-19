@@ -8,7 +8,6 @@ public class TestPartnershipDeregistration extends TestData
 {
     @Test(groups = "smokeTest")
     public void testDeregistrationForWomanWithReverting() {
-
         woman1.registerPartnership(man5);
         Person woman1FormerPartner = woman1.getPartner();
         woman1.deRegisterPartnership(true);
@@ -20,7 +19,6 @@ public class TestPartnershipDeregistration extends TestData
 
     @Test (priority = 1)
     public void testDeregistrationForWomanWithoutReverting() {
-
         woman3.registerPartnership(man4);
         Person woman3FormerPartner = woman3.getPartner();
         woman3.deRegisterPartnership(false);
