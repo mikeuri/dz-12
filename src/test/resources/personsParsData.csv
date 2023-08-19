@@ -1,0 +1,4 @@
+first_name,last_name,age,expected_status
+Penelope,Marshall,60,TRUE
+Rebecca,Blanton,86,TRUE
+Belinda,Stephens,42,FALSE
